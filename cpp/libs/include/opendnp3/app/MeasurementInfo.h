@@ -106,8 +106,8 @@ struct AnalogInfo : private openpal::StaticOnly
 
 	static const EventType EventTypeEnum = EventType::Analog;
 	static const StaticTypeBitmask StaticTypeEnum = StaticTypeBitmask::AnalogInput;
-	static const event_variation_t DefaultEventVariation = EventAnalogVariation::Group32Var1;
-	static const static_variation_t DefaultStaticVariation = StaticAnalogVariation::Group30Var1;
+	static const event_variation_t DefaultEventVariation = EventAnalogVariation::Group32Var5;
+	static const static_variation_t DefaultStaticVariation = StaticAnalogVariation::Group30Var5;
 };
 
 struct CounterInfo : private openpal::StaticOnly
